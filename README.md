@@ -86,10 +86,6 @@ composer test
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security
-
-If you discover any security-related issues, please email [hebert@hotbrains.com.br](mailto:hebert@hotbrains.com.br) instead of using the issue tracker.
-
 ## Credits
 
 - [Hebert Barros](https://github.com/hebertcisco)
