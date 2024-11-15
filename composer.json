@@ -1,0 +1,45 @@
+{
+  "name": "localtools/coinbase-commerce-sdk",
+  "type": "library",
+  "description": "Coinbase commerce PHP API Wrapper",
+  "keywords": ["Coinbase", "API", "Commerce", "PHP", "Bitcoin", "Ethereum", "Litecoin", "Bitcoin Cash", "USD Coin", "Dai", "Ether", "Litecoin", "Bitcoin Cash", "USD Coin", "Dai"],
+  "homepage": "https://hotbrains.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hebert",
+      "email": "hebert@hotbrains.com.br",
+      "homepage": "https://hotbrains.com.br"
+    }
+  ],
+  "scripts": {
+    "test": "vendor/bin/pest",
+    "test:coverage": "vendor/bin/pest --coverage",
+    "test:unit": "vendor/bin/pest --testsuite=unit"
+  },
+  "require": {
+    "php": ">=7.4",
+    "localtools/php-http-client": "^0.0.1",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.2 || ^v3.5.1",
+    "laravel/pint": "^1.18",
+    "phpunit/phpunit": "^8.5.40 || ^11.4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "LocalTools\\CoinbaseCommerceSdk\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LocalTools\\CoinbaseCommerceSdk\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
